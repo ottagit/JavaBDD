@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-20T17:39:27.832Z",
+        "line": 3,
+        "name": "Log in user with valid credentials",
+        "description": "",
+        "id": "login;log-in-user-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3781000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.userIsOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 719000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid user name and password",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.userEntersValidUserNameAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2223000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks the login button",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.clicksTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 942000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.userIsNavigatedToTheHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
