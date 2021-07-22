@@ -25,10 +25,10 @@ public class LoginDemoSteps {
         driver.navigate().to("https://example.testproject.io/web/");
     }
 
-    @When("user enters valid user name and password")
-    public void userEntersValidUserNameAndPassword() throws InterruptedException {
-        driver.findElement(By.id("name")).sendKeys("chris");
-        driver.findElement(By.id("password")).sendKeys("12345");
+    @When("^user enters valid (.*) and (.*)$")
+    public void userEntersValidUserNameAndPassword(String username, String password) throws InterruptedException {
+        driver.findElement(By.id("name")).sendKeys(username);
+        driver.findElement(By.id("password")).sendKeys(password);
         Thread.sleep(2000);
     }
 

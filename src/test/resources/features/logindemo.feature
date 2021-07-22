@@ -1,7 +1,12 @@
 Feature: Test login functionality
-  Scenario: Check login is successful with valid credentials
+  Scenario Outline: Check login is successful with valid credentials
     Given browser is open
     And user is on login page
-    When user enters valid user name and password
+    When user enters valid <username> and <password>
     And user clicks on login
     Then user is navigated to the home page
+
+    Examples:
+      | username | password |
+      | chris | 12345 |
+      | sylvia | 12345 |
