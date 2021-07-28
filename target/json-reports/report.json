@@ -3,75 +3,183 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-20T19:14:01.585Z",
-        "line": 3,
-        "name": "Log in user with valid credentials",
+        "start_timestamp": "2021-07-26T09:14:47.828Z",
+        "line": 12,
+        "name": "Check login is successful with valid credentials",
         "description": "",
-        "id": "login;log-in-user-with-valid-credentials",
+        "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3183000,
+              "duration": 4019055000,
               "status": "passed"
             },
             "line": 4,
-            "name": "user is on login page",
+            "name": "browser is open",
             "match": {
-              "location": "stepdefinitions.LoginSteps.userIsOnLoginPage()"
+              "location": "stepdefinitions.LoginDemoSteps.browserIsOpen()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 395000,
+              "duration": 1037021000,
               "status": "passed"
             },
             "line": 5,
-            "name": "user enters valid user name and password",
+            "name": "user is on login page",
             "match": {
-              "location": "stepdefinitions.LoginSteps.userEntersValidUserNameAndPassword()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 312000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "clicks the login button",
-            "match": {
-              "location": "stepdefinitions.LoginSteps.clicksTheLoginButton()"
+              "location": "stepdefinitions.LoginDemoSteps.userIsOnLoginPage()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 391000,
+              "duration": 2255807000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid chris and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chris",
+                  "offset": 18
+                },
+                {
+                  "val": "12345",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.LoginDemoSteps.userEntersValidUserNameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111590000,
               "status": "passed"
             },
             "line": 7,
+            "name": "user clicks on login",
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.userClicksOnLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2265395000,
+              "status": "passed"
+            },
+            "line": 8,
             "name": "user is navigated to the home page",
             "match": {
-              "location": "stepdefinitions.LoginSteps.userIsNavigatedToTheHomePage()"
+              "location": "stepdefinitions.LoginDemoSteps.userIsNavigatedToTheHomePage()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@smoketest"
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-26T09:14:57.680Z",
+        "line": 13,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1191993000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.browserIsOpen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1549097000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.userIsOnLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2210280000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid sylvia and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sylvia",
+                  "offset": 18
+                },
+                {
+                  "val": "12345",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.LoginDemoSteps.userEntersValidUserNameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121368000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login",
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.userClicksOnLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2212953000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.userIsNavigatedToTheHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
           }
         ]
       }
     ],
-    "name": "Login",
+    "name": "Test login functionality",
     "description": "",
-    "id": "login",
+    "id": "test-login-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
+    "uri": "file:src/test/resources/features/logindemo.feature",
     "tags": []
   }
 ]
