@@ -3,44 +3,105 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-26T09:14:47.828Z",
-        "line": 12,
+        "start_timestamp": "2021-07-28T15:04:41.547Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1875000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.step1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1489538000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.browserSetup()"
+            }
+          }
+        ],
+        "line": 11,
         "name": "Check login is successful with valid credentials",
         "description": "",
         "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 109000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.tearDown2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 141651000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4019055000,
+              "duration": 1225120000,
               "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 120000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.beforeSteps()"
+                }
+              }
+            ],
             "line": 4,
-            "name": "browser is open",
-            "match": {
-              "location": "stepdefinitions.LoginDemoSteps.browserIsOpen()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1037021000,
-              "status": "passed"
-            },
-            "line": 5,
             "name": "user is on login page",
             "match": {
               "location": "stepdefinitions.LoginDemoSteps.userIsOnLoginPage()"
             },
-            "keyword": "And "
+            "after": [
+              {
+                "result": {
+                  "duration": 119000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2255807000,
+              "duration": 2144339000,
               "status": "passed"
             },
-            "line": 6,
+            "before": [
+              {
+                "result": {
+                  "duration": 59000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 5,
             "name": "user enters valid chris and 12345",
             "match": {
               "arguments": [
@@ -55,30 +116,85 @@
               ],
               "location": "stepdefinitions.LoginDemoSteps.userEntersValidUserNameAndPassword(java.lang.String,java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 169000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.afterSteps()"
+                }
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 111590000,
+              "duration": 57610000,
               "status": "passed"
             },
-            "line": 7,
+            "before": [
+              {
+                "result": {
+                  "duration": 124000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 6,
             "name": "user clicks on login",
             "match": {
               "location": "stepdefinitions.LoginDemoSteps.userClicksOnLogin()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 194000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.afterSteps()"
+                }
+              }
+            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2265395000,
+              "duration": 2040730000,
               "status": "passed"
             },
-            "line": 8,
+            "before": [
+              {
+                "result": {
+                  "duration": 55000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 7,
             "name": "user is navigated to the home page",
             "match": {
               "location": "stepdefinitions.LoginDemoSteps.userIsNavigatedToTheHomePage()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 116000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.afterSteps()"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -89,44 +205,105 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-26T09:14:57.680Z",
-        "line": 13,
+        "start_timestamp": "2021-07-28T15:04:48.712Z",
+        "before": [
+          {
+            "result": {
+              "duration": 110000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.step1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 561127000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.browserSetup()"
+            }
+          }
+        ],
+        "line": 12,
         "name": "Check login is successful with valid credentials",
         "description": "",
         "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 206000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.tearDown2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 135697000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1191993000,
+              "duration": 1090863000,
               "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 67000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.beforeSteps()"
+                }
+              }
+            ],
             "line": 4,
-            "name": "browser is open",
-            "match": {
-              "location": "stepdefinitions.LoginDemoSteps.browserIsOpen()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1549097000,
-              "status": "passed"
-            },
-            "line": 5,
             "name": "user is on login page",
             "match": {
               "location": "stepdefinitions.LoginDemoSteps.userIsOnLoginPage()"
             },
-            "keyword": "And "
+            "after": [
+              {
+                "result": {
+                  "duration": 89000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2210280000,
+              "duration": 2140540000,
               "status": "passed"
             },
-            "line": 6,
+            "before": [
+              {
+                "result": {
+                  "duration": 56000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 5,
             "name": "user enters valid sylvia and 12345",
             "match": {
               "arguments": [
@@ -141,30 +318,85 @@
               ],
               "location": "stepdefinitions.LoginDemoSteps.userEntersValidUserNameAndPassword(java.lang.String,java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 258000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.afterSteps()"
+                }
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 121368000,
+              "duration": 58244000,
               "status": "passed"
             },
-            "line": 7,
+            "before": [
+              {
+                "result": {
+                  "duration": 195000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 6,
             "name": "user clicks on login",
             "match": {
               "location": "stepdefinitions.LoginDemoSteps.userClicksOnLogin()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 111000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.afterSteps()"
+                }
+              }
+            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2212953000,
+              "duration": 2037679000,
               "status": "passed"
             },
-            "line": 8,
+            "before": [
+              {
+                "result": {
+                  "duration": 79000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 7,
             "name": "user is navigated to the home page",
             "match": {
               "location": "stepdefinitions.LoginDemoSteps.userIsNavigatedToTheHomePage()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 241000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginDemoSteps.afterSteps()"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],

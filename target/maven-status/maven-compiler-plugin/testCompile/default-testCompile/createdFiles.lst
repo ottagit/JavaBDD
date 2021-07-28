@@ -1,1 +1,3 @@
+stepdefinitions/LoginDemoSteps.class
 stepdefinitions/TestRunner.class
+pages/loginPage.class

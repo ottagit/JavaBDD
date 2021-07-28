@@ -1,2 +1,5 @@
 /home/otta/IdeaProjects/CucumberJava/src/test/java/stepdefinitions/LoginSteps.java
 /home/otta/IdeaProjects/CucumberJava/src/test/java/stepdefinitions/TestRunner.java
+/home/otta/IdeaProjects/CucumberJava/src/test/java/pages/loginPage.java
+/home/otta/IdeaProjects/CucumberJava/src/test/java/stepdefinitions/LoginDemoSteps.java
+/home/otta/IdeaProjects/CucumberJava/src/test/java/stepdefinitions/GoogleSearchSteps.java
